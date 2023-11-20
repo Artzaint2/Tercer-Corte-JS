@@ -1,0 +1,93 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color:  #d4d2d2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 40px rgba(17, 16, 16, 0.199);
+}
+
+
+h1 {
+  text-align: center;
+  background-color: #c6c8ca00;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+}
+
+form {
+  background-color: rgb(160, 159, 159);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label, input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-button,
+#save-button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button#clear-button {
+  background-color: #c92828;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+}
+
+li {
+  background-color: #979696;
+  border: 1px solid #b4b0b0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
